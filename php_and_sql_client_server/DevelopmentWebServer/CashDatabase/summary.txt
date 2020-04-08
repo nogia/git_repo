@@ -1,0 +1,137 @@
+Server side
+
+classes.php file created to add any new sql/Informix query to search the levy data.
+This class defines each query using php StdClass.
+Initial array created (now it has 8 sql queries) to add as many  queries as we need.
+Query ID Number                            Action                                                    
+           0                                       search by case number
+           1                                       search by receipt number  receipt  totals
+           2                                       search by name
+           3                                       search by name and receipt
+           4                                       search by receipt number for receipt details
+           100                                   search by case and receipt   for receipt totals
+           101                                   search by name and receipt   for receipt totals
+           200                                   search  by receipt for receipt total balance
+
+All queries are used in other file SearchLevy.php that is used as a main server access file to run the SQL queries and output the result of each query in JSON format. The client side uses  Ext.Ajax request to POST  the parameters and GET data corresponding to the posted parameters, decode JSON format date ,open the
+Corresponding window , connect retrieved data into the grid and display on a screen.
+
+
+Client side has now the following java script files:
+
+
+ConstantValues.js    file defines :
+
+1) constant data (file names and other names used in a project);
+2) all data stores classes defined using Ext JS 4.0:
+LevyStore - > used to store LevyData from a single query in the following 
+Format and standard for each query:
+Data Stores are :
+
+
+ LevyData :
+         {name: 'id', type: 'string'},
+         {name: 'root', type: 'string'},
+         {name: 'name', type: 'string'},
+         {name: 'fieldnames', type: 'array'},
+         {name: 'data', type: 'array'},
+
+                            SearchLevy.php outputs each query in JSON format               
+                            corresponding to above standard form of data.
+
+CaseStore -> used to store CaseData for a  query id = 0
+
+CaseData:
+         {name: 'casenum', type: 'string'},
+         {name: 'levy', type: 'string'},
+ReceiptStore -> used to store ReceiptData  for a  query id = 3
+
+         {name: 'receipt', type: 'string'},
+         {name: 'casenum', type: 'string'},
+         {name: 'levy', type: 'string'},
+         {name: 'name', type: 'string'},
+         {name: 'payor', type: 'string'},
+         {name: 'fhs_date', type: 'string'},
+         {name: 'valid', type: 'string'},
+         {name: 'amount', type: 'string'},
+         {name: 'totaldue', type: 'string'},
+         {name: 'totalpaid', type: 'string'},
+         {name: 'balancedue', type: 'string'},
+
+NameStore - > used to store NameData for a query id = 2
+
+NameData:
+
+         {name: 'name', type: 'string'},
+         {name: 'levy', type: 'string'}
+
+
+            ReceiptLeviedStore ->  used to store ReceiptLeviedData for a queries id = 100,
+                             Id  =  101 , id = 1
+
+            ReceiptLeviedData:
+                       
+                          {name: 'recpt', type: 'string'},
+         		  {name: 'casenum', type: 'string'},
+                          {name: 'fund', type: 'string'},
+                          {name: 'objt', type: 'string'},
+                          {name: 'amount', type: 'string'},
+                          {name: 'remark', type: 'string'},
+                          {name: 'name_bal', type: 'string'},
+                          {name: 'payor', type: 'string'},
+                          {name: 'name_addr1', type: 'string'},
+                          {name: 'payor_addr1', type: 'string'},
+                          {name: 'name_addr2', type: 'string'},
+                         {name: 'assessed', type: 'string'},
+                         {name: 'tend_tot', type: 'string'},
+                         {name: 'balance', type: 'string'},
+         {name: 'pdtodate', type: 'string'},
+
+
+
+For Each future sql query data store to store LevyData.data must be defined
+In classes.php on server side  and in ConstantValues.js on client side. 
+
+ConstantValues defines the java script class LevyRequest that has the following
+Functions:
+                post Request,
+                getRequest,
+                processRequest,
+                setFinished
+
+This class used by any javascript file that requires retrieving data from  db using sql query defined in classes.php, run in SearchLevy.php and displayed by corresponding window that uses Ext JS 4.0 html5 and java script.
+
+
+Client Side:
+
+The following files are modified to display the queries defined in classes.php:
+
+Id =0, id = 1, id = 2, id =3, id = 4
+
+Cashdb.js, cashdb.html     start page(level 0)
+
+Page query level 1 modified (they become available after page level 0 shown)
+
+Case.js, case.html
+Receipt.js, receipt.html
+Name.js, name.html
+
+Page query level 2: created ( they become available after page level 1 shown)
+
+Caseandlevy.js, caseandlevy.html
+
+
+Page query level 3: created ( they become available after page level 2 shown)
+
+Receiptlevieddata.js, receiptlevied.html
+
+
+
+
+
+
+
+
+
+
+Files classes.php, SearchLevy.php and ConstantValues.js  and summary.doc are attached.
