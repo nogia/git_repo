@@ -1,0 +1,11 @@
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\ResolveAssemblyReference.cache
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\BecoConvert.FormBecoConvert.resources
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\BecoConvert.Properties.Resources.resources
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\GenerateResource.read.1.tlog
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\GenerateResource.write.1.tlog
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\bin\Release\BecoConvert.exe
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\bin\Release\BecoConvert.pdb
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\bin\Release\DecryptUtil.dll
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\bin\Release\XMLInOut.dll
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\BecoConvert.exe
+\\ENG83-WIN7\Share\BecoConvert\BecoConvert\obj\x86\Release\BecoConvert.pdb

@@ -1,0 +1,19 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  Compress.cpp
+Compress.cpp(571): warning C4018: '<' : signed/unsigned mismatch
+Compress.cpp(591): warning C4018: '<' : signed/unsigned mismatch
+Compress.cpp(723): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+Compress.cpp(740): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+Compress.cpp(746): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+Compress.cpp(786): warning C4018: '<' : signed/unsigned mismatch
+Compress.cpp(822): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+Compress.cpp(828): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  Compress.vcxproj -> C:\Users\iwilliams\Desktop\retreived files\IPSCOM\Release\Compress.dll

@@ -1,0 +1,67 @@
+   //////////////////////////To Compress//////////////////////////////////////////////////
+    Compress.Compress test = new Compress.Compress();
+     sbyte[] fname1 = new sbyte[100];
+            string filename1 = "conEx.ppf";
+            for (int i = 0; i < filename1.Length; i++)
+                fname1[i] = Convert.ToSByte(filename1[i]);
+
+            sbyte[] fname2 = new sbyte[100];
+            string filename2 = "encoddedFile.ppf";
+            for (int i = 0; i < filename2.Length; i++)
+                fname2[i] = Convert.ToSByte(filename2[i]);
+
+            fixed (sbyte* infile = fname1, outfile = fname2)
+            {
+                    test.CompressFile(infile, outfile);
+            }
+   /////////////////////////////TO decompress/////////////////////////////////////////////
+    Compress.Compress test = new Compress.Compress();
+     sbyte[] fname3 = new sbyte[100];
+           string filename3 = "encoddedFile.ppf";
+           for (int i = 0; i < filename3.Length; i++)
+               fname3[i] = Convert.ToSByte(filename3[i]);
+
+           sbyte[] fname4 = new sbyte[100];
+           string filename4 = "decoddedFile.ppf";
+           for (int i = 0; i < filename4.Length; i++)
+               fname4[i] = Convert.ToSByte(filename4[i]);
+
+           fixed (sbyte* infile = fname3, outfile = fname4)
+           {
+               test.DecompressFile(infile, outfile);
+           }
+   ///////////////////////////////////////////////////////////////////////////////////////
+   //////////////////////////////////////////////////////////////////////////////////////
+   OTHER way
+   ////////////////////////////////////////////////////////////////////////////////////
+   Compress.Compress test = new Compress.Compress();
+           sbyte[] count = { 0 };
+            count[0] = Convert.ToSByte('4');
+            sbyte[] op = {0};
+            op[0] = Convert.ToSByte('d');  // or  op[0] = Convert.ToSByte('e');
+           
+            string filename1 = "conEx.ppf";
+            
+             sbyte[] fname1 = new sbyte[filename1.Length];
+            for (int i = 0; i < filename1.Length; i++)
+                fname1[i] = Convert.ToSByte(filename1[i]);
+
+           
+           string filename2 = "encoddedFile.ppf";
+            
+            sbyte[] fname2 = new sbyte[filename2.Length];
+
+            for (int i = 0; i < filename2.Length; i++)
+                fname2[i] = Convert.ToSByte(filename2[i]);
+
+         
+            fixed (sbyte* arg0 = count, arg1 = op,arg2 = fname1, arg3 = fname2)
+             {
+                        sbyte*[] arr = { arg0, arg1, arg2 ,arg3};
+
+                        fixed (sbyte** argv = arr)
+                        {
+                            test.runCompress(4, argv);
+                        }
+      
+              }
