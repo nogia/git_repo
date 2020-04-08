@@ -1,0 +1,6 @@
+xemacCFLAGS=-g
+createhash:	Security.h  CreateHash.cpp Security.o 
+	g++ -o createhash  $(CFLAGS)  CreateHash.cpp Security.o   -lcrypto
+Security.o:	Security.h Security.cpp
+	g++ -c $(CFLAGS) Security.cpp
+

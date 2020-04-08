@@ -1,0 +1,7 @@
+#! /bin/bash
+rm -r subdrawings
+ln -s /usr/local/Henschel/WLB/bin/drawings/subdrawings subdrawings
+cd ..
+rm -r app-defaults
+ln -s /usr/local/Henschel/WLB/bin/app-defaults app-defaults
+

@@ -1,0 +1,1130 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\XPP\CXPLogon.cpp">
+      <Filter>Transport Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XPP\CXPProvider.cpp">
+      <Filter>Transport Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XPP\CXPStatus.cpp">
+      <Filter>Transport Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\UTILS.CPP">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\stdafx.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync\ReplicationInterface.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MSP\MessageStoreUtil.cpp">
+      <Filter>Wrapped Store Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MSP\CMSProvider.cpp">
+      <Filter>Wrapped Store Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\abcont.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\abdb.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\ablogon.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\abprov.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\abuser.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\table.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\txtdb.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MSP\CMSSupport.cpp">
+      <Filter>Wrapped Store Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ImportProcs.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\ServiceProvider.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\ABPConfig.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\MSPConfig.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\AbstractCommand.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\AccountImpl.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Authority.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Basic.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Chal.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Command.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ContactDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ContactStoreDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Controller.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Cred.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\CTCap.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\CTInfo.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DataStore.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DeviceImpl.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DevInf.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DevInfDTD_1_2.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSMappingImpl.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSMetaInfo.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSModCountEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSModEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSModStatusEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSProtoInfo_1_2.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSSession.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\DSTargetImpl.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Element.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ElementDecoder.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ElementEncoder.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ElementStack.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Email.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\EmailDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\EmailFolder.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\EmailStoreDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Event.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\EventDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\EventStoreDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\ExceptionEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Filter.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\FilterCap.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Item.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Key.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\List.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\lntCommon.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Loc.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Map.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\MemoDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\MemoryManagement.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Meta.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\MetInfDTD_1_2.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\MsgEvent.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Param.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\PCData.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Property.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Session.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\StoreDSSource.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Sync.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\SyncControl.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\SyncMLDTD_1_2.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\SyncMLError.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\WbxmlDecoder.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\WbxmlParser.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\XmlDecoder.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\XmlParser.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Util.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\Buffers.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CCalSession.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CCalDataExchange.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CEmailDatabase.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\TTime.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CleanupStack.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CCalEntry.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CCalEntryView.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CContactDatabase.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\User.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\Streams.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\CTravelerAccount.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\port_misc.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync\SyncObject.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync\SyncMLBridge.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync\SyncMLReplication.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service\ProfileHelper.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\UID.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Logger.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\abp\memdb.cpp">
+      <Filter>Address Book Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\MAPIHTTP.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\MapiDbUtil.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\IOUtil.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Converter.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\RDOConverter.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\PushMessage.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync\PushNotification.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\MapiUtils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\icalUtils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msp\CMAPIFolder.cpp">
+      <Filter>Wrapped Store Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\StateManager.cpp">
+      <Filter>Replication</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\TextPropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\TimePropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\EventPropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\RFC822Message.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c\Flag.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="Redemption\src\RedemptionLoader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\EnumPropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\RESTRequestManager.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\RecurrencePropConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ManagedUtils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\XPropConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\TimezonePropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\EventComponentConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\AlarmComponentConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\GlobalObjectId.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\OutlookClientUtil.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\AttendeePropertyConverter.cpp">
+      <Filter>icalConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\WbToXmlConverter.cpp">
+      <Filter>Sync4c</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\StringManager.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sync4c-port\SyncMLDatabase.cpp">
+      <Filter>Sync4c-Port</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\inc\PropTags.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\strings.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\GUIDs.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPI.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIAux.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPICode.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIDbg.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIDefS.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIForm.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIGuid.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIHook.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPINls.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIOID.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPISPI.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPITags.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIUtil.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIVal.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIWin.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIWz.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MAPIX.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-mapi\MSPST.h">
+      <Filter>inc-mapi</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\AbstractCommand.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Account.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\AccountImpl.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Authority.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Basic.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Chal.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Command.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ContactDatabase.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ContactDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ContactStoreDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Controller.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Cred.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\CredentialScheme.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\CTCap.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\CTInfo.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DataStore.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Device.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DeviceImpl.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DevInf.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DevInfDTD.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DevInfDTD_1_2.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DLLMain.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSConstants.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSMapping.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSMappingImpl.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSMetaInfo.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSModCountEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSModEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSModStatusEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSProtoInfo.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSProtoInfo_1_2.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSSession.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSTarget.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\DSTargetImpl.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Element.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ElementDecoder.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ElementDTD.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ElementEncoder.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ElementFactory.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ElementStack.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Email.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EmailDatabase.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EmailDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EmailFolder.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EmailStoreDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EmailUtil.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Event.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EventDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EventListenerImpl.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EventSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EventStoreDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ExceptionEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ExecutionContext.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Filter.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\FilterCap.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\global.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\HMAC.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\IntegrityScheme.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Item.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\ItemList.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Key.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\List.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\lntCommon.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Loc.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Map.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Memento.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MemoDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MemoryManagement.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Meta.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MetInfDTD.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MetInfDTD_1_2.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MsgEvent.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Param.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\PCData.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Property.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\PushMessage.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Registry.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Scheme.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Session.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Status.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\StoreDSSource.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Sync.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\SyncMLDatabase.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\SyncMLDTD.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\SyncMLDTD_1_2.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\SyncMLError.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\SyncMLExceptionErrorCodes.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Transport.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\TravelerCodes.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Util.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\version.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\WbxmlDecoder.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\WbxmlParser.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\XmlDecoder.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\XmlHandler.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\XmlParser.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\ReplicationApi.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\ReplicationInterface.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\SyncMLBridge.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\SyncMLReplication.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\SyncObject.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\abdb.h">
+      <Filter>Address Book Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\abp.h">
+      <Filter>Address Book Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\ServiceProvider.h">
+      <Filter>Service\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\CXPLogon.h">
+      <Filter>Transport Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\CXPProvider.h">
+      <Filter>Transport Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\CXPStatus.h">
+      <Filter>Transport Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\CMSProvider.h">
+      <Filter>Wrapped Store Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\CMSSupport.h">
+      <Filter>Wrapped Store Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\EdkMdb.h">
+      <Filter>Wrapped Store Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\MessageStoreUtil.h">
+      <Filter>Wrapped Store Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\ImportProcs.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\UTILS.H">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\stdafx.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\HttpConnection.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\ProfileHelper.h">
+      <Filter>Service\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\UID.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\Logger.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\MAPIHTTP.h">
+      <Filter>Sync4c-Port\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\MAPIMemory.hpp">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\MapiConverter.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\MapiDbUtil.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\tstring.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\IOUtil.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\Converter.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\RDOConverter.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\PushNotification.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\icalUtils.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\IgnoreProgressCallback.h">
+      <Filter>Transport Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msp\CMAPIFolder.h">
+      <Filter>Wrapped Store Provider\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\StateManager.h">
+      <Filter>Replication\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\EventPropertyConverter.h">
+      <Filter>icalConverter\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\RFC822Message.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\Flag.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\NamedPropTags.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\RedemptionLoader.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\RESTRequestManager.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ManagedUtils.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\TimezonePropertyConverter.h">
+      <Filter>icalConverter\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\EventComponentConverter.h">
+      <Filter>icalConverter\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\Constants.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\GlobalObjectId.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\OutlookClientUtil.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc-sync4c\EventListener.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\IBMReplication.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\WbToXmlConverter.h">
+      <Filter>Sync4c\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\StringManager.h">
+      <Filter>common\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inc\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Wrapped Store Provider">
+      <UniqueIdentifier>{52078a4e-64b3-4fae-85a5-43e88615b4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transport Provider">
+      <UniqueIdentifier>{c93ac03c-325f-4763-b238-011167f6e5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{f9e79435-a414-4377-b7a5-94331283e6ed}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{703ad2ca-39da-4bab-89c4-ec513e35a337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Address Book Provider">
+      <UniqueIdentifier>{49f191f3-c065-43e8-9e98-964310507049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{2ab6a843-f4c7-47ba-a260-84f8436e0c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync4c">
+      <UniqueIdentifier>{6867f923-fef9-4761-9a22-28570dc2bacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replication">
+      <UniqueIdentifier>{921fc363-06b6-46b8-a59a-525819684166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync4c-Port">
+      <UniqueIdentifier>{ab925546-e0dc-4f49-9f41-b1681c237710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Replication\headers">
+      <UniqueIdentifier>{5c946a6d-c1c6-4a37-8a7b-9c345f087c53}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Address Book Provider\headers">
+      <UniqueIdentifier>{180056fe-bbb0-49cc-8a41-2296306b6446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\headers">
+      <UniqueIdentifier>{027ffa48-5f6b-43b3-b0b6-e4f2cf8785c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transport Provider\headers">
+      <UniqueIdentifier>{7048848d-4041-45b5-beea-ae255f0f7282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync4c\headers">
+      <UniqueIdentifier>{cf9f2910-3722-49a0-82aa-bd363723e1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrapped Store Provider\headers">
+      <UniqueIdentifier>{b86ddeea-c325-467d-9a32-b91e09bfef96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\headers">
+      <UniqueIdentifier>{41a82993-038b-419a-844c-b20c24747bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync4c-Port\headers">
+      <UniqueIdentifier>{d570f0a7-74d7-4a9c-9163-8d922e6da01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc-mapi">
+      <UniqueIdentifier>{b5642ddd-42f8-45c2-a5d3-bd5e500cb2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icalConverter">
+      <UniqueIdentifier>{32c0bf0c-2e02-46bf-ae68-4f1b2224914e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icalConverter\headers">
+      <UniqueIdentifier>{52b328f0-9473-4281-8c39-63964197dfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8e95d275-f52b-44ae-a432-b79865301289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\inc\IBM_SYNC.def" />
+    <None Include="utilities\Install.bat" />
+    <None Include="utilities\uninstall.bat" />
+    <None Include="Redemption\bin\IBM_sync_helper32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\inc\IBM_SYNC.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\mail-connected.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\mail-disconnected.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>                                                                                                                                                                                                                                                                                                                                                                                                                                                   gnu_cxx24__numeric_traits_integerIiE5__maxE piecewise_construct_t _ZNKSs8_M_limitEmm _chain substr _ZN9__gnu_cxx24__numeric_traits_integerIlE5__maxE _ZNKSs4_Rep12_M_is_sharedEv _ZNSs7replaceEN9__gnu_cxx17__normal_iteratorIPcSsEES2_PKc _M_refdata 11__mbstate_t _S_synced_with_stdio unsigned char wcsxfrm _IO_lock_t wcslen _ZNKSs13find_first_ofEPKcm float _ZNKSs7compareEmmPKcm _ZN9__gnu_cxx24__numeric_traits_integerIsE5__maxE _M_set_length_and_sharable _ZNSs4_Rep26_M_set_length_and_sharableEm _ZNSt11char_traitsIcE2eqERKcS2_ _M_check uint_least32_t _ZNSs9_M_assignEPcmc _ZSt4cout _S_fixed ftell _ZNK9__gnu_cxx17__normal_iteratorIPKcSsE4baseEv _ZNSs18_S_construct_aux_2EmcRKSaIcE _ZNSs4_Rep10_M_refcopyEv _S_cur setbuf createHash __priority difference_type _ZNSs7_M_copyEPcPKcm _ZNSs13_S_copy_charsEPcN9__gnu_cxx17__normal_iteratorIS_SsEES2_ _ZNKSs7compareEPKc tm_zone _ZNKSs16find_last_not_ofEcm _ZNSs7replaceEN9__gnu_cxx17__normal_iteratorIPcSsEES2_S1_S1_ _ZNSs13shrink_to_fitEv wctomb wcsftime swap _M_addref mbrlen _ZNKSs2atEm _ZNSs7replaceEN9__gnu_cxx17__normal_iteratorIPcSsEES2_NS0_IPKcSsEES5_ _ZNKSt15__exception_ptr13exception_ptrcvbEv _M_iend _ZNK9__gnu_cxx17__normal_iteratorIPcSsEmiERKl size_type rewind _ZNSspLERKSs _S_create strtold strtoll atexit _IO_write_ptr negative_sign HASH_LENGTH ~basic_string wcscat _ZN8SecurityD2Ev 7lldiv_t wcstod _ZNSt15__exception_ptr13exception_ptraSEOS0_ _M_move int_curr_symbol _ZNKSs7compareERKSs _ZNK9__gnu_cxx13new_allocatorIcE7addressERc _ZNKSt16initializer_listIcE5beginEv _M_clone _M_replace_safe __state _ZNSs6appendERKSsmm __max_exponent10 _ZNSs6insertEN9__gnu_cxx17__normal_iteratorIPcSsEESt16initializer_listIcE _ZNSs6appendERKSs _M_ibegin clear _ZNSt11char_traitsIcE2ltERKcS2_ wcscspn _S_end __ioinit _ZNSs6assignERKSsmm size_t basic_ofstream<char, std::char_traits<char> > __count uint8_t quot _ZNKSs8_M_checkEmPKc front ~Init _ZNKSs17find_first_not_ofEPKcm tm_hour mdString perror _ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEE _M_current _ZNSs6insertEN9__gnu_cxx17__normal_iteratorIPcSsEEmc _M_grab _M_is_shared _IO_save_base _S_empty_rep_storage wctob mon_thousands_sep _M_assign _S_max_size __wchb wcsncmp find_last_not_of __int128 unsigned _S_boolalpha vfwscanf wint_t _ZNKSs12find_last_ofEPKcm mblen _ZNKSs5rfindEcm vfwprintf _ZNKSs13get_allocatorEv __digits result _ZNKSs6lengthEv _S_left wcstoull _M_copy __in_chrg _ZNKSs4findEPKcm _S_ios_fmtflags_end _ZNKSs16find_last_not_ofEPKcm wmemmove fputwc _ZNSt11char_traitsIcE11eq_int_typeERKiS2_ _ZNSs4_Rep10_M_disposeERKSaIcE _ZNSs6appendEmc _ZNKSs5c_strEv _ZNKSsixEm fputws _ZNSs4_Rep10_M_destroyERKSaIcE AuthorizeLogin _ZNSs7replaceEN9__gnu_cxx17__normal_iteratorIPcSsEES2_PKcm _ZNSs2atEm _S_badbit _ZNKSs11_M_disjunctEPKc _Container _ZNKSs6rbeginEv reverse_iterator<__gnu_cxx::__normal_iterator<char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > wcschr _S_out _next get_allocator _S_right basic_ostream<char, std::char_traits<char> > _M_limit _S_basefield address _Atomic_word uint_least64_t _ZNK9__gnu_cxx13new_allocatorIcE8max_sizeEv password decltype(nullptr) _ZNSs7replaceEN9__gnu_cxx17__normal_iteratorIPcSsEES2_PKcS4_ crend _ZNKSs5frontEv fclose strtoul openmode _ZNSt11char_traitsIcE6lengthEPKc _ZNSt11char_traitsIcE12to_char_typeERKi _ZNKSs12find_last_ofEcm _ZNSspLEPKc iterator_traits<char*> _ZNKSs5beginEv operator[] _ZNSt11char_traitsIcE3eofEv tmpfile _ZNKSs3endEv ungetc wcstombs _ZNKSs4findEPKcmm wchar_t _ZNKSs13find_first_ofEcm allocator_type _ZNSs3endEv pop_back basic_ifstream<char, std::char_traits<char> > _ZNSs6inse        ÿÿ  ÿÿ                  Œ      ÿÿ ÿÿf     0	         ÿÿ        @ ÀH     Ã —     G e n e r a l        M S   S a n s   S e r i f           € P  µ  ë  ÿÿ              P ' , 
+ î  ÿÿ€ U s e   S S L               € P D µ  é  ÿÿ             € P h µ  í  ÿÿ               P  µ  ê  ÿÿ‚ D o m i n o   S e r v e r   A d d r e s s                 P 6 µ  è  ÿÿ‚ U s e r n a m e               P \ µ  ì  ÿÿ‚ P a s s w o r d           ÿÿ ÿÿZ     0	         ÿÿ        H ÀH     Ã      L i c e n s e   I n f o r m a t i o n      M S   S h e l l   D l g              P. ' ` 0 è  ÿÿ‚ I B M   H a w t h o r n   2 . 0   ©   2 0 1 4 
+ b y 
+ I n t e r n a t i o n a l   B u s i n e s s   M a c h i n e s 
+ 
+ E n j o y   O u t l o o k       ¶      ÿÿ ÿÿg     0	         ÿÿ        H ÀH     Ã z     P r o p e r t y   P a g e        M S   S h e l l   D l g             € PB  n  é  ÿÿ             € PB  n  ê  ÿÿ             € PB - n  ë  ÿÿ               P    ì  ÿÿ‚ N a m e :                 P  0  î  ÿÿ‚ A d d r e s s   T y p e :                 P 1 0  í  ÿÿ‚ E m a i l   A d d r e s s :             € PB ? n  ï  ÿÿ               P A *  ð  ÿÿ‚ D e p a r t m e n t :       ¨      ÿÿ ÿÿ     	        (       @                            ¾zB Ú®Ž îÚÎ Rþ ²Êþ Ê’f îòþ 2rþ ¾Òþ Æ†R æÎº ÆÚþ >zþ ¶Îþ þþþ 6vþ Â‚N Þ¶š öêÞ Zþ Ö¦‚ îöþ ÂÖþ ÆŠZ ÂzF Ú²’ òâÖ Vþ ¶Êþ Îšn 6rþ Æ†V êÖÆ ÎÚþ ºÎþ :vþ òöþ ÆÖþ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         &&&&&&&&&&&&&&&&&&&&&&&&#&&&&&&&&&&&&#&&&&&&&&&&&&#"#$            #$  $  $  $  #  #  $#  $#  $#  $  $!         	
+        &&          &&              &&                          &&                          &&                &&                &&&                        &&&&&&&                  &&&&&&&&&&&&    &&&&&&&&&&&&&&    &&&&&&&&&&&&&&                  &&&&&&&&&&&&&&                  &&&&&&  ÿ  ÿ  ÿ  ÿ                                                                À   À   À   À   À   À   à  ü  ÿ  ?ÿ  ?ÿ  ?ÿ  ?h      ÿÿ ÿÿ     	        (                                   ¾zB Þ¶š þþþ ¶Êþ Rþ ÂÖþ Îšn Æ†V ÆÚþ ¶Îþ Zþ ÂzF êÖÆ ÆÖþ ÆŠZ ÊÚþ ºÎþ Zþ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         	
+
+      
+ 
+ 
+ 
+ 
+	 	
+                                                ??Í ? ?   ?                            €   € € € € à€ ðàðð¨      ÿÿ ÿÿ     	        (       @                              PÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ                                                PÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ                                                PÿÿPÿÿPÿÿWÿÿ³Êÿÿ9vÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ3rÿÿ´ËÿÿZÿÿPÿÿPÿÿPÿÿ                                                PÿÿPÿÿWÿÿÂÔÿÿÿÿÿÿðõÿÿ9vÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÇØÿÿZÿÿPÿÿPÿÿ                                                PÿÿPÿÿ±Éÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ9vÿÿPÿÿPÿÿPÿÿPÿÿ3rÿÿíóÿÿÿÿÿÿÿÿÿÿÿÿÿÿºÏÿÿPÿÿPÿÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿÂNÿPÿÿPÿÿ6tÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿ3rÿÿíóÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿ5sÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿ3rÿÿíóÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿ5sÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿíóÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿ5sÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ5sÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿ6tÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿ3rÿÿìòÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿ6tÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿðõÿÿ:vÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿ±Éÿÿÿÿÿÿÿÿÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿ6tÿÿïôÿÿÿÿÿÿÿÿÿÿÿÿÿÿ½ÑÿÿPÿÿPÿÿþýüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿYÿÿÄÖÿÿÿÿÿÿòöÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ6tÿÿïôÿÿÿÿÿÿÌÛÿÿZÿÿPÿÿPÿÿË’fÿñâ×ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿYÿÿ¶Ìÿÿ=xÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ6tÿÿ¼ÐÿÿZÿÿPÿÿPÿÿPÿÿ¾xAÿ¿yBÿØ¯Žÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ¾xAÿ¾xAÿ¾xAÿÄ„QÿçÍ¹ÿÿþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÙ±‘ÿ¾yBÿ¾xAÿ¾xAÿ¾xAÿÎ™oÿôèßÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÜ·šÿÀ{Eÿ¾xAÿ¾xAÿ¾xAÿÅ†UÿíÚÌÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿíÚÌÿÅ†Uÿ¾xAÿ¾xAÿ¾xAÿÀ{EÿÜ·šÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿëÖÅÿÆˆXÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÔ§ƒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÔ§ƒÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÆˆXÿëÖÅÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ            ¾xA¾xAÔ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÔ¾xA                            ¾xA¾xAÔ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÔ¾xA                                                ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ                                                        ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ                                                        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ                                                        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ                          ÿ  ÿ  ÿ  ÿ                                                                À   À   À   À   À   À   à  ü  ÿ  ?ÿ  ?ÿ  ?ÿ  ?h      ÿÿ ÿÿ     	        (                                     PÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿ                        PÿÿPÿÿ·ÍÿÿZÿÿPÿÿPÿÿXÿÿ´ËÿÿPÿÿPÿÿ                        Pÿÿ¶ÌÿÿÿÿÿÿÆ×ÿÿZÿÿXÿÿÃÕÿÿÿÿÿÿ¹ÎÿÿPÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿPÿÿYÿÿÅ×ÿÿÿÿÿÿÆ×ÿÿÄÖÿÿÿÿÿÿÈÙÿÿZÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿPÿÿYÿÿÅ×ÿÿÿÿÿÿÿÿÿÿÈÙÿÿZÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿPÿÿXÿÿÃÕÿÿÿÿÿÿÿÿÿÿÆ×ÿÿZÿÿPÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿXÿÿÄÖÿÿÿÿÿÿÇØÿÿÅ×ÿÿÿÿÿÿÆ×ÿÿZÿÿPÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿµÌÿÿÿÿÿÿÇØÿÿZÿÿYÿÿÅ×ÿÿÿÿÿÿ¸ÎÿÿPÿÿÿþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿPÿÿ¸ÎÿÿZÿÿPÿÿPÿÿYÿÿ¶ÌÿÿPÿÿPÿÿÎ™oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿPÿÿÅ†UÿÀ{EÿÜ·šÿÿÿÿÿÿÿÿÿ¾xAÿ    ¾xAÿëÖÅÿÆˆXÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿÆˆXÿëÖÅÿ¾xAÿ    ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ    ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ            ¾xAÔ¾xAÿÿÿÿÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿÿÿÿÿ¾xAÿ¾xAÔ                        ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ                            ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ             ?   ?\ó   ?                            €   € € € € à€ ðàð >       ÿÿ ÿÿ     0	                  ¨       h          ¨        h     ¨      ÿÿ ÿÿ     	        (       @                            ¾zB âÆ® Ö¦‚ ÊŽ^ öêÞ Æ†R êÖÆ Ú²’ úöò Â‚N ¾zF Îšn ÆŠZ òâÖ Þºž þþþ æÎº Ú®Ž Ê’f öêâ Æ†V îÚÎ Þ¶š þúö ÂzF                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               	  	                                                
+      
+                                                                                                                                                                                        ÿÿÿÿÿÿÿÿ€  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  €  À  ø  þ  þ  þ  þ  ÿÿÿÿÿÿÿÿh      ÿÿ ÿÿ     	        (                                   ¾zB æÎº Îšn Æ†V öêâ ÊŽb ÂzF êÖÆ Þ¶š ÆŠZ þþþ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+   
+
+
+
+
+
+
+      
+     
+        
+
+
+
+
+
+
+      
+     
+   
+
+
+
+
+
+
+          ÿÿ/
+€ ÿÿ€ € € € € € € € € € € € € € € € € € € € à€ ðàððÿÿð¨      ÿÿ ÿÿ     	        (       @                                                                                                                                                                                                                                                                                                  ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¾xAÿ¾xAÿ        ¾xAÿ¾xAÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ

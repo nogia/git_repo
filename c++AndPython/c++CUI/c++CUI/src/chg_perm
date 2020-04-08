@@ -1,0 +1,9 @@
+#! /bin/bash
+sudo chmod +x glg_makefile
+sudo chmod +x glg_makefile_dds_library_debug
+sudo chmod +x makehmi
+sudo chmod +x sblink
+sudo chmod +x set_env
+sudo chmod +x set_env_opengl
+sudo chmod +x scada_viewer_demo.x
+sudo chmod +x scada_viewer.x

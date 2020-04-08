@@ -1,0 +1,3 @@
+#! /bin/bash
+rm -r subdrawings
+ln -s /usr/local/Henschel/WLB/bin/drawings/subdrawings subdrawings
