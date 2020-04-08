@@ -1,0 +1,65 @@
+Script started on 2019-04-19 12:13:25-0500
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw3[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw3[00m$ Rscript Hw_3_IW.R 
+
+#######################################################################################################
+
+(a) compute the exact/true fair option price for strike prices $75, $100, and $130.
+
+################################  Strike price K= 75 #################################################
+Price at time zero = 100 
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Excact price European call option = 29.10637
+################################  Strike price K= 100 #################################################
+Price at time zero = 100 
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Excact price European call option = 13.28331
+################################  Strike price K= 130 #################################################
+Price at time zero = 100 
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Excact price European call option = 4.207674
+#######################################################################################################
+
+b) Using simple Monte Carlo simulation with n = 105 samples, compute the approximate
+value of the European call option for the parameter values above. You may use the
+sample program on d2l. What is the relative error for each strike price? For which strike
+price is the relative error largest?
+
+#######################################################################################################
+
+################################  Strike price K= 75  n =  1e+05 #####################################
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Approximated price European call option = 29.15899 
+Excact price European call option = 29.10637 
+error =  0.001807743 
+
+################################  Strike price K= 100  n =  1e+05 #####################################
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Approximated price European call option = 13.2852 
+Excact price European call option = 13.28331 
+error =  0.0001423469 
+
+################################  Strike price K= 130  n =  1e+05 #####################################
+interest rate r= 0.03 
+volatility= 0.3 
+Maturity Time T= 1  year 
+Approximated price European call option = 4.156554 
+Excact price European call option = 4.207674 
+error =  0.01214925 
+
+########################################################################################################
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw3[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw3[00m$ exit
+exit
+
+Script done on 2019-04-19 12:13:35-0500

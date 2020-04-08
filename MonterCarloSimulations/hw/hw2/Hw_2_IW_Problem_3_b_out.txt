@@ -1,0 +1,9 @@
+Script started on 2019-04-14 00:44:26-0500
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ exitanaconda-navigator script output_HW_2_PR_3_c.txtexit[KRscript Hw_2_IW.R exit[KRscript Hw_2_IW.R [K(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R ^V[K[K[K[K_Problem_3_b.R 
+Sample size   = 27941  Error =  0.00446718121313003
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ exit
+exit
+
+Script done on 2019-04-14 00:45:36-0500

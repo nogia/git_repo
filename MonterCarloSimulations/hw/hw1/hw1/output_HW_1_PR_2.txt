@@ -1,0 +1,148 @@
+Script started on 2019-04-05 21:15:26-0500
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ exitRscript hw_1_Inna_Willimas.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 100
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  100"
+[1] "###################################################################"
+[1] "Start using_replications"
+[1] "End using_replications"
+[1] "player number = 3   probability to get winning ticket =  0.21 theoretical value =  0.2  relative error =  4.99999999999998 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript hw_1_Inna_Willimas.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 1000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  1000"
+[1] "###################################################################"
+[1] "Start using_replications"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_replications"
+[1] "player number = 3   probability to get winning ticket =  0.193 theoretical value =  0.2  relative error =  3.50000000000002 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript hw_1_Inna_Willimas.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 10000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  10000"
+[1] "###################################################################"
+[1] "Start using_replications"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_replications"
+[1] "player number = 3   probability to get winning ticket =  0.2081 theoretical value =  0.2  relative error =  4.04999999999998 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript hw_1_Inna_Willimas.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 100000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  100000"
+[1] "###################################################################"
+[1] "Start using_replications"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_replications"
+[1] "player number = 3   probability to get winning ticket =  0.19961 theoretical value =  0.2  relative error =  0.195000000000015 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript hw_1_Inna_Willimas.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 1000000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  1000000"
+[1] "###################################################################"
+[1] "Start using_replications"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_replications"
+[1] "player number = 3   probability to get winning ticket =  0.199429 theoretical value =  0.2  relative error =  0.285500000000022 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript hw_1_Inna_Willimas.R [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kusing_for_loop_hw1_problem_2.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 100
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  100"
+[1] "###################################################################"
+[1] "Start using_for_loop"
+[1] "End using_for_loop"
+[1] "player number = 3   probability to get winning ticket =  0.17 theoretical value =  0.2  relative error =  15 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript using_for_loop_hw1_problem_2.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 1000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  1000"
+[1] "###################################################################"
+[1] "Start using_for_loop"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_for_loop"
+[1] "player number = 3   probability to get winning ticket =  0.199 theoretical value =  0.2  relative error =  0.500000000000014 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript using_for_loop_hw1_problem_2.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 10000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  10000"
+[1] "###################################################################"
+[1] "Start using_for_loop"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_for_loop"
+[1] "player number = 3   probability to get winning ticket =  0.2054 theoretical value =  0.2  relative error =  2.69999999999998 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript using_for_loop_hw1_problem_2.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 100000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  100000"
+[1] "###################################################################"
+[1] "Start using_for_loop"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_for_loop"
+[1] "player number = 3   probability to get winning ticket =  0.19943 theoretical value =  0.2  relative error =  0.285000000000021 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ Rscript using_for_loop_hw1_problem_2.R 
+Enter number_of_players 5
+Enter player_number to win 3
+Enter Number_Of_Simulations 1000000
+[1] "number_of_players = 5 player_number to get winning ticket =  3 Number_Of_Simulations =  1000000"
+[1] "###################################################################"
+[1] "Start using_for_loop"
+Warning messages:
+1: closing unused connection 5 (stdin) 
+2: closing unused connection 4 (stdin) 
+3: closing unused connection 3 (stdin) 
+[1] "End using_for_loop"
+[1] "player number = 3   probability to get winning ticket =  0.199927 theoretical value =  0.2  relative error =  0.0365000000000226 %"
+[1] "End Of File"
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2019-04-05 21:17:45-0500

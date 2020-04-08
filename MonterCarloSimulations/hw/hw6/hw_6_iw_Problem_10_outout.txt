@@ -1,0 +1,10 @@
+With S(0)= 100 , 
+r= 0 ,
+volatility= 0.4 ,
+T= 0.2307692 , 
+monitoring frequency= 12 ,
+sample size n= 10000 .
+The estimated lookback call option price is 11.34935 , 
+with approximate error as 0.3146225 . 
+The estimated look back put option price is 12.12742 , 
+with approximate error as 0.2624756 . 

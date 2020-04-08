@@ -1,0 +1,77 @@
+Script started on 2019-04-13 23:05:54-0500
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ exitRscript Hw_2_IW.R 
+Enter number_of simulatios 10000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+number_of simulatios  = 10000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3522997999634 
+ Abs Error =  0.000472289024781247 Std= 0.739299589474949 StdError= 0.00739299589474949 
+95% conf_interval = [  15.3192373172073   15.3853622827194  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 10000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+number_of simulatios  = 10000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3624922441552 
+ Abs Error =  0.010664733216581 Std= 0.740272229626782 StdError= 0.00740272229626782 
+95% conf_interval = [  15.3293862636092   15.3955982247012  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 10000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+number_of simulatios  = 10000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3466958299915 
+ Abs Error =  0.0051316809470503 Std= 0.738211249922885 StdError= 0.00738211249922885 
+95% conf_interval = [  15.3136820192599   15.3797096407232  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 10000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+number_of simulatios  = 10000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3415052004153 
+ Abs Error =  0.0103223105232999 Std= 0.741929851811351 StdError= 0.0074192985181135 
+95% conf_interval = [  15.3083250887516   15.374685312079  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 10000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+number_of simulatios  = 10000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3688351570224 
+ Abs Error =  0.0170076460838171 Std= 0.738576019779473 StdError= 0.00738576019779473 
+95% conf_interval = [  15.3358050332868   15.401865280758  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 1000000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+Warning message:
+closing unused connection 3 (stdin) 
+number_of simulatios  = 1000000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.35102384748 
+ Abs Error =  0.000803663458619042 Std= 0.738340192395942 StdError= 0.000738340192395942 
+95% conf_interval = [  15.3477218897585   15.3543258052014  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 1000000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+Warning message:
+closing unused connection 3 (stdin) 
+number_of simulatios  = 1000000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.352034786735 
+ Abs Error =  0.000207275796391571 Std= 0.738726126547358 StdError= 0.000738726126547358 
+95% conf_interval = [  15.3487311030636   15.3553384704064  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 1000000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+Warning message:
+closing unused connection 3 (stdin) 
+number_of simulatios  = 1000000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3509681177697 
+ Abs Error =  0.000859393168852307 Std= 0.738473843512432 StdError= 0.000738473843512432 
+95% conf_interval = [  15.3476655623423   15.3542706731971  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ [K(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ Rscript Hw_2_IW.R 
+Enter number_of simulatios 1000000
+[1] "k for 95% confidence = sqrt(1/(1-0.95)) =  4.47213595499958"
+Warning message:
+closing unused connection 3 (stdin) 
+number_of simulatios  = 1000000 Theoretical value =  15.3518275109386 Calculated Expected Pay Value =  15.3518606354645 
+ Abs Error =  3.31245258937685e-05 Std= 0.738216136697433 StdError= 0.000738216136697433 
+95% conf_interval = [  15.348559232537   15.355162038392  ]
+__vte_prompt_command: command not found
+(base) ]0;inna@inna-ubuntu: ~/Desktop/Montercarlo/hw2[01;32minna@inna-ubuntu[00m:[01;34m~/Desktop/Montercarlo/hw2[00m$ exit
+exit
+
+Script done on 2019-04-13 23:07:36-0500
