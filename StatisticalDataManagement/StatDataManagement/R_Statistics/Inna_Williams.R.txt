@@ -1,0 +1,159 @@
+###########################################################################################
+#       Inna Williams
+#         Homework 4
+#         MATH 449
+###########################################################################################
+#####################    START      Problem 1   ######################
+#install.packages("RCurl")
+#library(bitops)
+#library(RCurl)
+
+# Importing one row of the data from URL
+cat("Problem 1 \n
+     1. The dataset that consists of the inspections\n
+    of restaurants and other food establishments in \n
+    Chicago is given at the following link. The name \n
+    of some of the variables has space, and this will \n
+    create a problem for the data analysis. \n
+    http:/594442.youcanlearnit.net/inspections.csv\n
+    a) Import the data set from  the above link:\n\n"
+   )
+df <- read.csv(file="http://594442.youcanlearnit.net/inspections.csv",
+               nrows=1000,header = TRUE,sep = ",")
+cat("names before renaming = ",names(df))
+cat('\n \n b) Rename all variables: \n')
+df_rename_to_names=c("ID", "DBAName" ,"AKAname", "License", 
+                     "FacilityType", "Risk", "Address", 
+                     "City", "State", "ZIP", "InspectionDate", 
+                     "InspectionType", "Results", "Violations", 
+                     "Latitude", "Longitude" ,"Location")
+names(df) <- df_rename_to_names
+cat("names after renaming =",names(df))
+
+#####################      END      Problem 1   ####################
+#####################    START      Problem 2   ####################
+#  a) Import the Birthweight data set into R.  Be sure to clearly\n 
+#  define all variables in your output. Also, submit your R code via\n
+#  email so I can check your work.\n
+####################################################################
+cat("\n\n Problem 2.\n\n a) Import the Birthweight data set into R : \n")
+birthweight=
+read.fwf("C:/Users/Inna/Desktop/StatisticalManSAS/week4/birthweight.txt",  
+  widths= c(1,2,1,6,6,1,4,5),     
+  col.names=c("Ethnic","Age","smoke","preweight","delweight",
+           "breastfed","brthwght","brthlngth"), strip.white=TRUE)
+birthweight
+calculate_average=function(data,field,type=0)
+{
+  if(type == 0)
+    return(mean(field) )
+  else
+    return(mean(field[which(data$smoke==type)]))
+}
+
+# b) Find the average weight of the babies at birth
+cat("\n b) Find the average weight of the babies at birth :\n\n")
+average_weight_of_the_babies_at_birth = 
+  calculate_average(birthweight,birthweight$brthwght)
+cat("average weight of the babies at birth = ",
+    average_weight_of_the_babies_at_birth)
+cat('\n\n c) Find the average weight for each of the \n
+    following mother non-smoker mothers: \n
+   ')
+# c) Find the average weight for each of the following mother 
+#    non-smoker mothers
+
+calculate_averages=function(data,fields,types=c(1))
+{
+  n=length(types)
+  x=array(c(c(0),c(0)),dim=c(length(types),length(fields[,1])))
+  for(i in 1:length(fields[,1]))
+  {
+    z=numeric(n)
+    for( j in 1:length(types))
+    {
+      z[j]=calculate_average(birthweight,fields[i,],types[j])
+    }
+    x[,i]=z
+  }
+  result <- matrix(c(x),ncol=2)
+  colnames(result) <- c('Average preweight','Average delweight')
+  rownames(result) <- c("non-smoker","light smoker","heavy smoker")
+  return(as.table(result))
+}
+
+fields=array(c(c(0),c(0)),dim=c(2,length(birthweight$preweight)))
+fields[1,]=birthweight$preweight
+fields[2,]=birthweight$delweight
+types=c(1,2,3)
+calculate_averages(birthweight,fields,types)
+#####################      END      Problem 2   ###################
+
+#####################      START    Problem 3   ###################
+
+cat('\n\n3. Write a general function to calculate measure of  \n
+variability of data in a vector, X, with the option of \n
+specifying the  variance,  standard deviation, range  or\n
+inter quartile range  as measure of  spread.\n'
+)
+
+# mean, var, sd, range, IRQ,quantile)
+cat("Use the following functions to calculate\n
+     measure of variability: \n
+     mean, var, sd, range, IRQ, quantile \n")
+calculate_variability = function(X,measure_of_spread)
+{
+    return(c(measure_of_spread(X,na.rm=TRUE)))
+}
+####     Example 1 using calculate_variability function ####
+# I will use the data for Problem 2
+# vector = birthweight$brthwght -> Weight of baby at birth
+Birthweight = numeric(6)
+Birthweight_range = numeric(2)
+
+Birthweight[1]=calculate_variability(birthweight$brthwght,mean)
+Birthweight[2]=calculate_variability(birthweight$brthwght,var)
+Birthweight[3]=calculate_variability(birthweight$brthwght,sd)
+Birthweight[4]=calculate_variability(birthweight$brthwght,IQR)
+Birthweight_range=calculate_variability(birthweight$brthwght,range)
+Birthweight[5]=Birthweight_range[1]
+Birthweight[6]=Birthweight_range[2]
+result <- matrix(c(Birthweight),ncol=1)
+colnames(result) <- c('Birthweight')
+rownames(result) <- c("mean","var","stdev","IQR","Min","Max")
+as.table(result)
+
+
+####     Example 2 using calculate_variability function ####
+### I will use Forbse2000 data calculate 
+### measures of variability on the vector profits for 
+### countries Germany and USA
+library(HSAUR)
+d=Forbes2000
+profit_Germany=d$profits[which(d$country== "Germany")]
+profit_USA=d$profits[which(d$country== "United States")]
+usa=numeric(6)
+germany=numeric(2)
+usa_range=c(numeric(2))
+germany_range=c(numeric(2))
+usa[1]=calculate_variability(profit_USA,mean)
+usa[2]=calculate_variability(profit_USA,var)
+usa[3]=calculate_variability(profit_USA,sd)
+usa[4]=calculate_variability(profit_USA,IQR)
+usa_range=calculate_variability(profit_USA,range)
+usa[5]=usa_range[1]
+usa[6]=usa_range[2]
+
+germany[1]=calculate_variability(profit_Germany,mean)
+germany[2]=calculate_variability(profit_Germany,var)
+germany[3]=calculate_variability(profit_Germany,sd)
+germany[4]=calculate_variability(profit_Germany,IQR)
+germany_range=calculate_variability(profit_Germany,range)
+germany[5]=germany_range[1]
+germany[6]=germany_range[2]
+result <- matrix(c(usa,germany),ncol=2)
+colnames(result) <- c('USA Profits','Germany Profits')
+rownames(result) <- c("mean","var","stdev","IQR","Min","Max")
+as.table(result)
+
+#####################      END      Problem 3   ###################

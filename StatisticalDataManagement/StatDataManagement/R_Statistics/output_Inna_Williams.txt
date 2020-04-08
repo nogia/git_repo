@@ -1,0 +1,85 @@
+Problem 1 
+
+     1. The dataset that consists of the inspections
+
+    of restaurants and other food establishments in 
+
+    Chicago is given at the following link. The name 
+
+    of some of the variables has space, and this will 
+
+    create a problem for the data analysis. 
+
+    http:/594442.youcanlearnit.net/inspections.csv
+
+    a) Import the data set from  the above link:
+
+names before renaming =  Inspection.ID DBA.Name AKA.Name License.. Facility.Type Risk Address City State Zip Inspection.Date Inspection.Type Results Violations Latitude Longitude Location
+ 
+ b) Rename all variables: 
+names after renaming = ID DBAName AKAname License FacilityType Risk Address City State ZIP InspectionDate InspectionType Results Violations Latitude Longitude Location
+
+ Problem 2.
+
+ a) Import the Birthweight data set into R : 
+   Ethnic Age smoke preweight delweight breastfed brthwght brthlngth
+1       1  24     1    105.41    129.97         Y     3170     52.03
+2       2  28     2    165.61    187.63         N     3640     51.40
+3       2  25     1    175.87    190.72         Y     3664     47.49
+4       2  24     3    125.88    150.81         N     2760     45.45
+5       3  28     1     92.89    117.68         Y     2950     50.51
+6       2  21     1    140.81    165.77         N     3460     53.11
+7       1  29     1    125.61    160.61         Y     3350     48.34
+8       3  27     3    127.73    148.76         Y     3200     48.04
+9       2  19     1    132.22    156.94         N     3360     51.38
+10      3  22     1    118.73    161.03         Y     3493     49.52
+11      2  34     1    189.01    200.31         Y     3600     48.02
+12      1  25     3    144.45    180.96         N     3050     51.51
+13      2  25     1    125.19    152.75         N     3050     52.72
+14      2  19     2    137.82    172.25         N     2400     46.96
+15      3  35     1    140.96    174.85         N     3940     48.09
+16      1  23     3    135.08    173.36         Y     2650     49.82
+17      1  20     1    112.59    140.75         N     3800     51.25
+18      2  20     2    128.19    159.73         N     3070     48.29
+19      3  26     1     99.18    141.27         Y     3210     50.12
+
+ b) Find the average weight of the babies at birth :
+
+average weight of the babies at birth =  3253.526
+
+ c) Find the average weight for each of the 
+
+    following mother non-smoker mothers: 
+
+                Average preweight Average delweight
+non-smoker            129.8725          157.7208
+light smoker          143.8733          173.2033
+heavy smoker          133.2850          163.4725
+
+
+3. Write a general function to calculate measure of  
+
+variability of data in a vector, X, with the option of 
+
+specifying the  variance,  standard deviation, range  or
+
+inter quartile range  as measure of  spread.
+Use the following functions to calculate
+
+     measure of variability: 
+
+     mean, var, sd, range, IRQ, quantile 
+      Birthweight
+mean    3253.5263
+var   160283.8187
+stdev    400.3546
+IQR      496.5000
+Min     2400.0000
+Max     3940.0000
+       USA Profits Germany Profits
+mean    0.65160428     -0.03815385
+var     3.20203624     11.67500279
+stdev   1.78942344      3.41687032
+IQR     0.45250000      0.44000000
+Min    -4.45000000    -25.83000000
+Max    20.96000000      5.12000000
