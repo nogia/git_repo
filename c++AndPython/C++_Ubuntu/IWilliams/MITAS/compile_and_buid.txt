@@ -1,0 +1,33 @@
+# Install armadillo linear algebra library
+
+sudo apt-get install liblapack-dev
+sudo apt-get install libblas-dev
+sudo apt-get install libboost-dev
+sudo apt-get install libarmadillo-dev
+
+
+cd /home/inna/Desktop/
+
+#build directory already created
+#but if not created then
+
+mkdir build
+
+# copy filter.3x3.txt filter.5x5.txt frames.1.8.6.bin frames.3.10.4.bin into build directory
+# or any other .bin and .txt filter files into build directory
+
+cd build
+cmake ..
+make
+
+#  to run with arguments pass first arg .bin name   , second arg .txt filter_file name
+./Assignment frames.1.8.6.bin filter.3x3.txt >> output.txt
+
+# to run with now arguments program will use default 2 sets of.bin .txt
+#  frames.1.8.6.bin filter.3x3.txt ; frames.3.10.4.bin filter.5x5.txt
+./Assignment >> output
+
+./Assignment frames.1.8.6.bin filter.5x5.txt >> output.txt
+
+# file created in output.txt
+
