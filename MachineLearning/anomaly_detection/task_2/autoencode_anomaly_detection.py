@@ -68,8 +68,22 @@ batch_size = 32
 epochs =20
 history = autoencoder.fit(x_train,x_train,batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(x_test,x_test),callbacks=[TensorBoard(log_dir='../logs/autoencoder1')])
 
-threshold= [10, 1,5,15]
-for th in threshold:
+##############################################################################
+
+##########  we can find threshold the following ways   #######################
+x_train_mae_pred = autoencoder.predict(x_train)
+train_mae_loss = np.mean(np.abs(x_train_mae_pred - x_train),axis=1)
+threshold = np.max(train_mae_loss)
+
+test_mae_pred = autoencoder.predict(x_test)
+test_mae_loss = np.mean(np.abs(test_mae_pred - x_test),axis = 1)
+anomalies = test_mae_loss > threshold
+print("anomalies = ")
+print(anomalies)
+
+############################################################################
+thresholds= [10, 1,5,15,threshold]
+for th in thresholds:
     print("Threshold = ",th)
     y_pred = autoencoder.predict(x_test)
     y_dist = np.linalg.norm(x_test - y_pred,axis = -1)
@@ -87,10 +101,8 @@ for th in threshold:
     print("roc_auc_score = ",roc_auc_score(y_test,y_label))
     viz = visualization()
     viz.draw_confusion_matrix(y_test,y_label)
-    viz.draw_anomaly(y_test,error,threshold)
+    viz.draw_anomaly(y_test,error,th)
     print("End Threshold = " ,th)
-##############################################################################
-
 print("End")
 
 
