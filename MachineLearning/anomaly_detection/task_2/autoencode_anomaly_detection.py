@@ -66,7 +66,7 @@ autoencoder.summary()
 autoencoder.compile(optimizer=RMSprop(),loss = 'mean_squared_error',metrics=['mae','accuracy'])
 batch_size = 32
 epochs =20
-history = autoencoder.fit(x_train,y_train,batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(x_test,y_test),callbacks=[TensorBoard(log_dir='../logs/autoencoder1')])
+history = autoencoder.fit(x_train,x_train,batch_size=batch_size,epochs=epochs,verbose=1,validation_data=(x_test,x_test),callbacks=[TensorBoard(log_dir='../logs/autoencoder1')])
 
 threshold= [10, 1,5,15]
 for th in threshold:
